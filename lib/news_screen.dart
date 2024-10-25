@@ -11,8 +11,7 @@ class NewsScreen extends StatefulWidget {
 }
 
 class _NewsScreenState extends State<NewsScreen> {
-  final String _apiUrl =
-      'https://kinsta.com/wp-json/wp/v2/posts'; // URL de la API de Kinsta
+  final String _apiUrl ='https://techcrunch.com/'; // URL de la API de Kinsta
   List<dynamic> _posts = [];
 
   @override
